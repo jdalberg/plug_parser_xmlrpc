@@ -18,7 +18,7 @@ defmodule Plug.Parses.XMLRPC.Mixfile do
 
   def deps do
     [
-      {:xmlrpc, "~> 1.0"},
+      {:xmlrpc, "~> 0.9"},
       {:plug, "~> 1.3.0"},
       {:erlsom, "~> 1.4"}
     ]
