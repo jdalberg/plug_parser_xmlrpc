@@ -8,12 +8,22 @@ defmodule Plug.Parses.XMLRPC.Mixfile do
      version: @version,
      elixir: "~> 1.7",
      deps: deps(),
+     description: "An xmlrpc parser for xmlrpc requests based on Plug",
+     package: package(),
      name: "Plug.Parsers.XMLRPC"]
   end
 
   # Configuration for the OTP application
   def application do
     [applications: [:logger, :plug]]
+  end  
+  
+  defp package do
+    [
+      maintainers: ["Jesper Dalberg"],
+      licenses: ["Artistic"],
+      links: %{"GitHub" => "https://github.com/jdalberg/plug_parser_xmlrpc"}
+    ]
   end
 
   def deps do
