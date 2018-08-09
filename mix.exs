@@ -30,7 +30,8 @@ defmodule Plug.Parses.XMLRPC.Mixfile do
     [
       {:xmlrpc, "~> 1.0"},
       {:plug, "~> 1.6"},
-      {:erlsom, "~> 1.4"}
+      {:erlsom, "~> 1.4"},
+      {:ex_doc, "~> 0.19", only: :dev, runtime: false}
     ]
   end
 
