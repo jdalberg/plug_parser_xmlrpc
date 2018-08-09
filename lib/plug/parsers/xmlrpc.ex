@@ -8,6 +8,10 @@ defmodule Plug.Parsers.XMLRPC do
   @behaviour Plug.Parsers
   import Plug.Conn
 
+  def init(options) do
+    options
+  end
+  
   def parse(conn, "text", "xml", _headers, opts) do
     decoder = Keyword.get(opts, :xmlrpc_decoder, XMLRPC)
     conn
