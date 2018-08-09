@@ -1,0 +1,1 @@
+sidebarNodes={"extras":[{"id":"api-reference","title":"API Reference","group":"","headers":[{"id":"Modules","anchor":"modules"}]}],"exceptions":[],"modules":[{"id":"Plug.Parsers.XMLRPC","title":"Plug.Parsers.XMLRPC","group":"","functions":[{"id":"init/1","anchor":"init/1"},{"id":"parse/5","anchor":"parse/5"}]}],"tasks":[]}
